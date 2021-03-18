@@ -1,5 +1,5 @@
 body{
-  background: url('/img/coffee-background.jpg');
+  background: url('../img/coffee-background.jpg');
 }
 .container.rounded{
   background: rgb(139,69,19,.5);
