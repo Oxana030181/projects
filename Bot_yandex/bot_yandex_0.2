@@ -46,9 +46,9 @@ if(btn!=undefined){
         let link = links[i];
         if(link.href.indexOf("xn----7sbab5aqcbiddtdj1e1g.xn--p1ai")!=-1){
             nextYandexPage = false;
-            link.click(); // Кликаем по ссылке
+            link.click();
             link.removeAttribute ("target");
-            break; // Прерываем цикл
+            break;
         }
     }
     if(nextYandexPage && currentYandexPage<11) setTimeout(()=>{document.getElementByClassName('link_theme_none link_target_serp pager__item pager__item_kind_next i-bem link_js_inited')[0].click()},1500);
